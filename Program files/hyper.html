@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!--Add Keywords, Author, and description for Search Engines-->
+    <meta name="description" content="Sara Maller's HTML and CSS Projects" />
+    <meta name="keywords" content="HTML, CSS, programming" />
+    <meta name="author" content="Sara Maller" />
+    <!--Page title-->
+    <title>Sara Maller's HTML and CSS Projects</title>
+    <!-- Add google fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Sofia"
+      rel="stylesheet"
+    />
+    <!-- title bar image -->
+    <link
+      rel="shortcut icon"
+      href="https://cdn.glitch.com/0ef5b9e3-daaa-45b4-ab89-f6bcba8f909f%2Falphabet-2010720_1920.png?v=1590544894234"
+    />
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="./style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <!-- information bar -->
+    <div class="information">
+      <div>
+        <a class="infolinks" href="tel:4088645300"
+          ><img
+            alt="telephone"
+            title="Call De-Anza college :)"
+            src="https://cdn.glitch.com/b92721d6-677b-4f35-8e2e-ce89c1719cfc%2Ftelephone.svg?v=1590013951218"
+            style="width:30px;height:20px;"
+          />Call: (408) 864-5300</a
+        >
+      </div>
+      <div>
+        <a class="infolinks" href="mailto:sarabmaller@gmail.com">
+          <img
+            alt="email icon"
+            title="Send me an email"
+            id="email-icon"
+            style="width:22px;height:20px;"
+            src="https://cdn.glitch.com/b92721d6-677b-4f35-8e2e-ce89c1719cfc%2Femail%20graphic.png?v=1590013665947"
+          />
+          Email: sarabmaller@gmail.com</a
+        >
+      </div>
+      <div>
+        <a class="infolinks" href="https://www.instagram.com/?hl=en"
+          ><img
+            alt="social media icon"
+            title="Redirects to Instagram"
+            src="https://cdn.glitch.com/b92721d6-677b-4f35-8e2e-ce89c1719cfc%2Fsocial%20media%20icon.png?v=1590014245909"
+            style="height:20px;"
+          />Follow me on Social Media</a
+        >
+      </div>
+      <div></div>
+    </div>
+    <!-- Header -->
+    <div class="header">
+      <img
+        src="https://cdn.glitch.com/0ef5b9e3-daaa-45b4-ab89-f6bcba8f909f%2Fwhite.PNG?v=1590549274336"
+        style="width:100%;max-width:1366px;"
+      />
+    </div>
+    <!--Dropdown Menu-->
+    <nav class="topnav" id="navbar" onscroll="myScroll()">
+      <!--CSS-->
+      <div class="dropdown">
+        <button class="dropbtn"><a href="hyper.html">CSS</a></button>
+        <div class="dropdown-content">
+          <a href="https://cssformattingassignment.glitch.me/">Formatting</a>
+          <a href="https://cssformattingassignment.glitch.me/">Animations</a>
+          <a href="https://csslayouts.glitch.me/">Layout</a>
+        </div>
+      </div>
+      <!--HTML-->
+      <div class="dropdown">
+        <button class="dropbtn">
+          <a href="hyper.html">HTML</a>
+        </button>
+        <div class="dropdown-content">
+          <a href="https://fivewordquarantine.glitch.me/">HTML Basics</a>
+          <a href="https://paperairplanes.glitch.me/">[un]ordered Lists</a>
+          <a href="https://usingtablesandforms.glitch.me/">Tables and Forms</a>
+          <a href="https://workingwithmedia.glitch.me/">Media</a>
+          <a href="https://workingwithlinks.glitch.me/">Using Links</a>
+        </div>
+      </div>
+      <!--JAVA-->
+      <div class="dropdown">
+        <button class="dropbtn"><a href="coffee.html">Java</a></button>
+        <div class="dropdown-content">
+          <a
+            href="https://cdn.glitch.com/0ef5b9e3-daaa-45b4-ab89-f6bcba8f909f%2FGUICards.txt?v=1590611395498"
+            >GUI Cards</a
+          >
+          <a
+            href="https://cdn.glitch.com/0ef5b9e3-daaa-45b4-ab89-f6bcba8f909f%2Fcellularautomata.txt?v=1590611116151"
+            >Cellular Automata</a
+          >
+          <a
+            href="https://cdn.glitch.com/0ef5b9e3-daaa-45b4-ab89-f6bcba8f909f%2FCardTable.txt?v=1590611385326"
+            >Card Table</a
+          >
+          <a
+            href="https://cdn.glitch.com/0ef5b9e3-daaa-45b4-ab89-f6bcba8f909f%2FFHsdTree.txt?v=1590611390708"
+            >Data Trees</a
+          >
+        </div>
+      </div>
+      <!--PYTHON-->
+      <div class="dropdown">
+        <button class="dropbtn"><a href="python.html">Python</a></button>
+        <div class="dropdown-content">
+          <a
+            href="https://cdn.glitch.com/0ef5b9e3-daaa-45b4-ab89-f6bcba8f909f%2FCalculate%20Wages.txt?v=1591130588570"
+            >Wage Calculator</a
+          >
+          <a
+            href="https://cdn.glitch.com/0ef5b9e3-daaa-45b4-ab89-f6bcba8f909f%2FSalary%20Calculator.txt?v=1591130591459"
+            >Basic Functions</a
+          >
+          <a
+            href="https://cdn.glitch.com/0ef5b9e3-daaa-45b4-ab89-f6bcba8f909f%2FWage%20and%20Tax%20Calculator.txt?v=1591130595229"
+            >Advanced Functions</a
+          >
+        </div>
+      </div>
+      <!--JAVASCRIPT-->
+      <div class="dropdown">
+        <button class="dropbtn"><a href="coffee.html">Javascript</a></button>
+        <div class="dropdown-content">
+          <a
+            href="https://cdn.glitch.com/0ef5b9e3-daaa-45b4-ab89-f6bcba8f909f%2FGUICards.txt?v=1590611395498"
+            >GUI Cards</a
+          >
+          <a
+            href="https://cdn.glitch.com/0ef5b9e3-daaa-45b4-ab89-f6bcba8f909f%2Fcellularautomata.txt?v=1590611116151"
+            >Cellular Automata</a
+          >
+          <a
+            href="https://cdn.glitch.com/0ef5b9e3-daaa-45b4-ab89-f6bcba8f909f%2FCardTable.txt?v=1590611385326"
+            >Card Table</a
+          >
+          <a
+            href="https://cdn.glitch.com/0ef5b9e3-daaa-45b4-ab89-f6bcba8f909f%2FFHsdTree.txt?v=1590611390708"
+            >Data Trees</a
+          >
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn">
+          <a class="home" href="index.html">Home</a>
+        </button>
+      </div>
+    </nav>
+    <!--Header 2-->
+    <div class="header">
+      <p>Resize the browser window to see the responsive effects.</p>
+    </div>
+    <!--Slideshow -->
+    <div class="slideshow-container">
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 3</div>
+        <iframe
+          src="https://workingwithmedia.glitch.me/"
+          style="width:100%;height:600px;"
+        >
+        </iframe>
+        <div class="text">Working with Media</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 3</div>
+        <iframe
+          src="https://cssformattingassignment.glitch.me/"
+          style="width:100%;height:600px;"
+        >
+        </iframe>
+        <div class="text">CSS Formatting</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 3</div>
+        <iframe
+          src="https://csslayouts.glitch.me/"
+          style="width:100%;height:600px;"
+        >
+        </iframe>
+        <div class="text">CSS Layouts</div>
+      </div>
+
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br />
+
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+    <!--Footer-->
+    <div class="footer">
+      <h2>Sara Maller</h2>
+      <p class="small">
+        All pictures are from <a href="https://pixabay.com">Pixabay</a><br />
+        CSD089 Web Page Development<br />
+        Professor Valerie Taylor<br />
+        Spring 2020
+      </p>
+      <!--Hit counter-->
+      <a>
+        <img
+          src="https://hitwebcounter.com/counter/counter.php?page=7353815&style=0005&nbdigits=4&type=ip&initCount=0"
+          title="Web Counter"
+          alt="counter free"
+          border="0"
+        />
+      </a>
+    </div>
+  </body>
+</html>
